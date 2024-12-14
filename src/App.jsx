@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Header from './components/header/Header'
-import Sidebar from './components/Sidebar/Sidebar'
+import Sidebar from './components/sidebar/Sidebar'
 import Data from './components/data/Data'
 import { auth, provider } from './components/firebase/firebase';
 import { signInWithPopup } from 'firebase/auth';
